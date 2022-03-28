@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.array;
 
 /**
  * Given an array of size "n" check if there exist a pair (i, j) such that a[i]

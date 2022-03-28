@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.array;
 
 /**
  * Given an array of size "N" and a positive integer "k", such that k < N.

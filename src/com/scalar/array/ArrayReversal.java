@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.array;
 
 /**
  * Given an array of size N, reverse the array without creating a new array.

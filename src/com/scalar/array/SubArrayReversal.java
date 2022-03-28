@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.array;
 
 public class SubArrayReversal {
 
