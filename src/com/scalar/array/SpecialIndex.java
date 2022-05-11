@@ -8,25 +8,53 @@ public class SpecialIndex {
 
 	public static void main(String[] args) {
 		
-		int[] A = {4, 3, 2, 7, 6, -2};
+//		int[] A = {3, 2, 4, 7, 6, -2};
+		int[] A = {1, 1, 1};
+		System.out.println(bruteForceSolution(A));
+		
+	}
+	
+	private static int bruteForceSolution(int[] A) {
+		/**
+		 * Iterate over the indexes and for each index calculate even and odd sum 
+		 * such that the sum of odd indices when index is greater than index under test is the sum of even indices  
+		 * Time Complexity : O(N^2)
+		 * */
+		int count = 0;
 		for(int i = 0; i < A.length; i++) {
 			int evenSum = 0;
 			int oddSum = 0;
-			System.out.println("i = "+i);
 			for(int j = 0; j < A.length; j++) {
-				if(j != i) {
-					System.out.print(A+",");
+				if(j < i) {
 					if(j % 2 == 0) {
 						evenSum += A[j];
 					} else {
-						oddSum +=A[j];
+						oddSum += A[j];
+					}
+				} else if(j > i) {
+					if(j % 2 == 0) {
+						oddSum += A[j];
+					} else {
+						evenSum += A[j];
 					}
 				}
 			}
-			System.out.println("\nODD SUM : "+oddSum+"\nEVEN SUMM : "+evenSum);
 			if(evenSum == oddSum) {				
-				System.out.println(i + "is a special index");
+				count++;
 			}
 		}
+		return count;
+	}
+	
+	private static int optimisedSolution(int[] A) {
+		/**
+		 * Create the prefix sum array first
+		 * */
+		
+		int count = 0;
+		for(int i = 0; i < A.length; i++) {
+			
+		}
+		return count;
 	}
 }
