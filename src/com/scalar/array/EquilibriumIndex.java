@@ -31,7 +31,7 @@ public class EquilibriumIndex {
 		 * 	- N*2*N = 2N^2 = N^2
 		 * O(N^2)
 		 */
-		for (int i = 1; i < arr.length; i++) {
+		for (int i = 0; i < arr.length; i++) {
 			int sumLeft = 0;
 			int sumRight = 0;
 
@@ -66,7 +66,8 @@ public class EquilibriumIndex {
 
         int sumLeft = 0;
         int sumRight = 0;
-        for(int i = 1; i < arr.length; i++) {
+        
+        for(int i = 0; i < arr.length; i++) {
             sumLeft = prefixSumArr[i-1];
             sumRight = prefixSumArr[arr.length-1] - prefixSumArr[i];
 //            System.out.println("sumLeft : "+sumLeft+" || i : "+i+" || sumRight :"+sumRight);
