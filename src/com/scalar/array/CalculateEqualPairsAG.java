@@ -10,7 +10,7 @@ public class CalculateEqualPairsAG {
 	public static void main(String[] args) {
 		
 		char[] S = {'b', 'a', 'a', 'g', 'd', 'c', 'a', 'g'};
-		System.out.println(optimisedBruteForce(S));
+		System.out.println(optimisedCarryForwardSolution(S));
 	}
 	
 	// Time complexity : O(N^2), Space complexity : O(1)
@@ -26,6 +26,19 @@ public class CalculateEqualPairsAG {
 			}
 		}
 		return count;
+	}
+	
+	public static int optimisedCarryForwardSolution(char[] S) {
+		int c = 0, ans = 0;
+		for(int i = S.length-1; i>=0; i--) {
+			if(S[i] == 'g') {
+				c += 1;
+			} else if(S[i] == 'a' ) {
+				ans += c;
+			}
+		}
+		
+		return ans;
 	}
 
 }
