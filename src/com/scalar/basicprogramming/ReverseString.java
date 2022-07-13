@@ -2,9 +2,11 @@ package com.scalar.basicprogramming;
 
 public class ReverseString {
 	
-	//reverse a String keeping special character position same
-	//Input - Test@&TEST#$123
-	//OutPut - 321T@&SETt#$seT
+	/*
+		Reverse a String keeping special character position same
+			Input - Test@&TEST#$123
+			OutPut - 321T@&SETt#$seT
+	*/
 	
 	public static void main(String[] args) {
 		
