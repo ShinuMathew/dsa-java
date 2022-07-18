@@ -1,4 +1,4 @@
-package com.scalar.array;
+package com.scalar.array.prefixsum;
 
 /**
  * Return prefix sum of the given array. 
