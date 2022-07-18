@@ -1,4 +1,4 @@
-package com.scalar.array;
+package com.scalar.array.prefixsum;
 
 /**
  * Given an array of size 'N'. Return the prefix sum array of the even elements.
