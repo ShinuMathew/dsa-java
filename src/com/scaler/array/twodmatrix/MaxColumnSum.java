@@ -7,12 +7,13 @@ public class MaxColumnSum {
 	 */
 	public static void main(String[] args) {
 		int[][] arr = { { 2, 3, -2, 0 }, { 6, 2, 4, 1 }, { -4, 1, 5, 3 } };
-		columnWiseSum(arr);
+		System.out.println(getMaxColumnWiseSum(arr));
 	}
 
-	private static void columnWiseSum(int[][] arr) {
+	private static int getMaxColumnWiseSum(int[][] arr) {
 		int rowLength = arr.length;
 		int colLength = arr[0].length;
+		int answer = arr[0][0];
 
 		for (int j = 0; j < colLength; j++) {
 			int sum = 0;
@@ -20,8 +21,8 @@ public class MaxColumnSum {
 				sum += arr[i][j];
 			}
 			System.out.println("column - " + j + " sum : " + sum);
+			answer = Math.max(answer, sum);
 		}
-
+		return answer;
 	}
-
 }
