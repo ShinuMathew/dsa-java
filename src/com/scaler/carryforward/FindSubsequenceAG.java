@@ -19,7 +19,8 @@ public class FindSubsequenceAG {
             }
             if(arr[i] == 'A') {
                 ans += c;
-                ans = ans%1000000007; //Return the answer modulo 10^9 + 7 as the answer can be very large.
+                // Return the answer modulo 10^9 + 7 as the answer can be very large.
+                ans = ans%1000000007; 
             }
         }
         return ans; 
