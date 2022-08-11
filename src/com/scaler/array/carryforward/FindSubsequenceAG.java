@@ -1,4 +1,6 @@
-package com.scaler.carryforward;
+package com.scaler.array.carryforward;
+
+import java.util.HashMap;
 
 public class FindSubsequenceAG {
 	
@@ -23,6 +25,12 @@ public class FindSubsequenceAG {
                 ans = ans%1000000007; 
             }
         }
+        
+        HashMap<Integer, String> hm = new HashMap<Integer, String>();
+        hm.put(1, "Shinu");
+        hm.put(1, "Shiju");
+        hm.put(1, "Shibu");
+        hm.keySet().forEach(s -> System.out.println(s +" : "+ hm.get(s)));
         return ans; 
     }
 }
