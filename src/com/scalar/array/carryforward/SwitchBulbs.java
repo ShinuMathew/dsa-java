@@ -1,4 +1,4 @@
-package com.scaler.array.carryforward;
+package com.scalar.array.carryforward;
 
 public class SwitchBulbs {
 

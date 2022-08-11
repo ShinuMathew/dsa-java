@@ -1,4 +1,4 @@
-package com.scaler.array.twodmatrix;
+package com.scalar.array.twodmatrix;
 
 public class PrintDiagonalsFor2DMatrix {
 	

@@ -1,4 +1,4 @@
-package com.scaler.array.recursion;
+package com.scalar.array.recursion;
 
 public class PowerOfNumberUsingRecursion {
 

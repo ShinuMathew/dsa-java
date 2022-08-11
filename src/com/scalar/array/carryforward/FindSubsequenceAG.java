@@ -1,4 +1,4 @@
-package com.scaler.array.carryforward;
+package com.scalar.array.carryforward;
 
 import java.util.HashMap;
 
