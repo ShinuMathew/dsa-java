@@ -1,4 +1,4 @@
-package com.scaler.sorting;
+package com.scalar.sorting;
 
 import java.util.Arrays;
 import java.util.List;

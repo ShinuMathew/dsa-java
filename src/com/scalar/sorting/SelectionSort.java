@@ -1,4 +1,4 @@
-package com.scaler.sorting;
+package com.scalar.sorting;
 
 public class SelectionSort {
 
