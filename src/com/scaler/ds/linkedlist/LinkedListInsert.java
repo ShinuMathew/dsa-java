@@ -36,7 +36,7 @@ public class LinkedListInsert {
 			newNode.next = head;
 			head = newNode;			
 		} else {
-			Node temp = head;	// Create a temp node for traversal
+			Node temp = head;	// Create a temporary node for traversal
 			for(int i = 1; i < position; i++) {	// i starts from 1 since the head is already at 0. When i = p-1, temp = temp.next will bring temp to (p -1)th position
 				temp = temp.next;				
 			}			
