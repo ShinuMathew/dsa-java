@@ -1,4 +1,4 @@
-package com.scaler.ds.linkedlist;
+package com.scalar.ds.linkedlist;
 
 public class Node {
 	int data;

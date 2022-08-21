@@ -1,11 +1,12 @@
-package com.scaler.ds.linkedlist;
+package com.scalar.ds.linkedlist;
 
-public class LinkedListCreate {
+public class LinkedListReversePrintRecursion {
 
 	public static void main(String[] args) {
 		Node head = new Node(1);
 		createLinkedList(head, 10);
-		printLinkedList(head);					
+		printLinkedList(head);		
+		printReverse(head);
 	}
 
 	private static Node createLinkedList(Node head, int x) {		
@@ -25,5 +26,14 @@ public class LinkedListCreate {
 			head = head.next;
 			i++;
 		}
+	}
+	
+	private static void printReverse(Node head) {
+		if(head.next == null) {
+			System.out.println(head.toString());
+			return;
+		}
+		printReverse(head.next);
+		System.out.println(head.toString());
 	}
 }
