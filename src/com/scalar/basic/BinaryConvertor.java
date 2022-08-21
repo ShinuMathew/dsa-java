@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.basic;
 
 public class BinaryConvertor {
 

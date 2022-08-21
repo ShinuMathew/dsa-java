@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.basic;
 
 /*
  * Java program to create 4*4 matrix of ‘*’ and then Traverse it from center to up then down

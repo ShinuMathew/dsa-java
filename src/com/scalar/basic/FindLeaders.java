@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.basic;
 
 /*
  * Given an arr[n], find all the leaders in the array.

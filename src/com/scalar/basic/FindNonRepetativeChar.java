@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.basic;
 
 // Give a string bbbbbbcaaadddf. Find the first non repeating character
 public class FindNonRepetativeChar {

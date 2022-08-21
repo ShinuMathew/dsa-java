@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.basic;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.scalar.basicprogramming;
+package com.scalar.basic;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
