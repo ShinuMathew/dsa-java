@@ -1,4 +1,4 @@
-package com.scalar.basic;
+package com.scalar.ds.array;
 
 public class Triplets {
 
