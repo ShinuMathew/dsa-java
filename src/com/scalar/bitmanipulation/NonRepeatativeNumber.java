@@ -1,6 +1,6 @@
 package com.scalar.bitmanipulation;
 
-public class FindNonRepeatativeNumber {
+public class NonRepeatativeNumber {
 	
 	/**
 	 * Given N array elements, every element repeats itself twice except for one number.
