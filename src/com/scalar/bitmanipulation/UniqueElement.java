@@ -1,6 +1,6 @@
 package com.scalar.bitmanipulation;
 
-public class FindUniqueElement {
+public class UniqueElement {
 
 	/**
 	 * Given N array elements, every element repeats twice except for one element.
