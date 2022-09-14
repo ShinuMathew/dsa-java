@@ -11,16 +11,13 @@ public class SumOfAllXORS {
 		int n = arr.length;
 		int sum = 0;
 		for (int i = 0; i < 32; i++) {
-			int set = 0;
-			int unset = 0;
+			int c = 0;
 			for (int j = 0; j < n; j++) {
 				if (((arr[j] >> i) & 1) == 1) {
-					set++;
-				} else {
-					unset++;
+					c++;
 				}
 			}
-			sum += (set * unset) * 1 << i;
+			sum += (c * (n - c)) * 1 << i;
 		}
 		return sum * 2;
 	}
