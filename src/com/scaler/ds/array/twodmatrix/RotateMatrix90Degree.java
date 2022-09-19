@@ -1,4 +1,4 @@
-package com.scaler.ds.array;
+package com.scalar.ds.array.twodmatrix;
 
 public class RotateMatrix90Degree {
 	
