@@ -23,6 +23,6 @@ public class Triplets {
 	}
 	
 	private static void optimizedtriplets(int[] arr, int n) {
-		
+		// Contribution technique
 	}
 }
